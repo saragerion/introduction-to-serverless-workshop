@@ -1,4 +1,4 @@
-# Module 01: AWS Lambda
+# Step 01: AWS Lambda
 
 **Goal:** Create an AWS Lambda function using the Lambda console.
 
