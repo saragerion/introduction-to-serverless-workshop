@@ -54,3 +54,18 @@
 4. Click on `Save`
 
 </p></details>
+
+<details>
+<summary><b>Deploy the API</b></summary><p>
+
+
+1. Select `Deploy API` from the `Actions` drop-down
+
+2. Select the voice `[new stage]z
+
+3. Under `Stage name`, fill `test-stage`.
+
+4. Click on `Deploy`
+
+</p></details>
+
