@@ -1,6 +1,6 @@
 # Step 01: AWS Lambda
 
-**Goal:** Create an AWS Lambda function using the Lambda console.
+**Goal:** Create an AWS Lambda function using the AWS console website.
 
 <details>
 <summary><b>Create a Lambda function</b></summary><p>
