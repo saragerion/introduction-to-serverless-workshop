@@ -7,7 +7,9 @@
 
 1. Log into the AWS Console
 
-2. Go to the Lambda console
+2. In the top-right, select the region `eu-central-1` (`Frankfurt`)
+
+2. Go to the Lambda service section
 
 3. Click `Create function`
 
@@ -17,13 +19,11 @@
 
 6. Select the runtime as `Node.js 10`
 
-7. Under `Role*`, choose `Create new role from template(s)`
+7. Under `Role*`, choose `Create new role from AWS policy templates`
 
-8. Use the role name `intro-to-sl-` followed by your name - e.g. `intro-to-sl-sara-gerion`
+8. Use the role name `GetStartedLambdaBasicExecutionRole`
 
-9. Use the policy template `Test Harness permissions`
-
-10. Click `Create function`
+9. Click `Create function`
 
 </p></details>
 
