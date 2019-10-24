@@ -1,4 +1,3 @@
-
 const serenaGifs = [
     'https://media.giphy.com/media/u3xrWx0ni9EZy/giphy.gif',
     'https://media.giphy.com/media/l41YvkBOHfmsU6Gas/giphy.gif',
@@ -9,8 +8,8 @@ const serenaGifs = [
     'https://media.giphy.com/media/911Uzl1kdKnJu/giphy.gif'
 ];
 
-const loadHtml = () => {
-    const serenaGifURL = serenaGifs[Math.floor(Math.random()*serenaGifs.length)];
+const getHtml = () => {
+    const serenaGifURL = serenaGifs[Math.floor(Math.random() * serenaGifs.length)];
 
     return `<html>
                 <head>
@@ -50,6 +49,6 @@ exports.handler = async () => {
         headers: {
             'Content-Type': 'text/html',
         },
-        body: loadHtml(),
+        body: getHtml(),
     };
 };

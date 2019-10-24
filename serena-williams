@@ -1,0 +1,19 @@
+#!/bin/bash
+
+######################################################
+#
+# File serena-williams
+# Simple script to send HTTP requests to given url
+#
+# How to use:
+# - Make sure the file is executable  :   chmod +x serena-williams
+# - Append the API url as parameter   :   ./serena-williams https://[REPLACE_API_ID].execute-api.eu-central-1.amazonaws.com/stage/serena-williams
+#
+
+start=`date +%s`
+for i in {1..100}
+  do
+     curl -s -o /dev/null -w "Request #$i, response status code: %{http_code}\n" $*
+ done
+ end=`date +%s`
+ echo Sent 100 requests to your API in `expr $end - $start` seconds.
