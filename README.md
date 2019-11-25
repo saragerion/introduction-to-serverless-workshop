@@ -1,13 +1,15 @@
-# An Introduction to Serverless, based on examples featuring Serena Williams workshop
-Step by step to login into DAZN demo account and deploy webapp serveless sample application using CloudFormation
+# Workshop: An introduction to serverless
+# Based on examples featuring Serena Williams
 
-* Login in the AWS console
+This repository explains the steps that need to be followed during the workshop, to temporary log in into the DAZN demo account, and deploy a serveless webapp sample application using a CloudFormation stack.
 
-* Deploy AWS services using CloudFormation
 
-* Trigger AWS Lambda
+Technologies used:
 
-* Publish new version AWS Lambda using versions
+* AWS CloudFormation
+* AWS API Gateway
+* AWS Lambda
+
 
 
 
