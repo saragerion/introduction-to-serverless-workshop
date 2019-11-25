@@ -5,11 +5,12 @@
 <details>
 <summary><b>Create a stack with API Gateway and Lambda</b></summary><p>
 
-1. (If you cloned the repository locally, skip the the next 2 points)
-Go to link:
-https://raw.githubusercontent.com/getndazn/introduction-to-serveless-workshop/master/01_CloudFormation/stack-template.yml
+(If you cloned the repository locally, skip the the next 2 points)
 
-2. Right click the page, and save it on you computer
+1. Go to link:
+https://github.com/getndazn/introduction-to-serveless-workshop/blob/master/02_CloudFormation/stack-template.yml
+
+2. Click on `Raw`, right click the page, and save it on you computer
 
 3. In the AWS Console, go to the CloudFormation section: https://eu-central-1.console.aws.amazon.com/cloudformation
 
