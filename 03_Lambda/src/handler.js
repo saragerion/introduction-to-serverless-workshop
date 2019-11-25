@@ -32,27 +32,13 @@ const getHtml = () => {
                             margin: auto;
                         }
                         #container > img.img-gif {
-                            width: 100%;
-                            max-width: 500px;
                             position: absolute;
                             top: 0;
                             left: 0;
                             right: 0;
                             bottom: 0;
                             margin: auto;
-                        }
-                        #container p {
-                            width: 100%;
-                            position: absolute;
-                            left: 0;
-                            right: 0;
-                            bottom: 89px;
-                            margin: auto;
-                            color: #f8fc00;
-                            text-transform: uppercase;
-                            font-family: Arial, serif;
-                            text-align: center;
-                            font-size: 60px;
+                            max-height: 65%;
                         }
                     </style>
                 </head>
@@ -60,7 +46,6 @@ const getHtml = () => {
                     <div id="container">
                         <img class="img-logo" src="https://d1sgwhnao7452x.cloudfront.net/dazn_light.png" alt="DAZN logo">
                         <img class="img-gif" src="${ serenaGifURL }" alt="Serena Williams">
-                        <p>Change the game</p>
                     </div>
                 </body>
             </html>`;
