@@ -8,7 +8,7 @@
 (If you cloned the repository locally, skip the the next 2 points)
 
 1. Go to link:
-https://github.com/sgdazn/introduction-to-serveless-workshop/blob/master/02_CloudFormation/stack-template.yml
+https://github.com/saragerion/introduction-to-serveless-workshop/blob/master/02_CloudFormation/stack-template.yml
 
 2. Click on `Raw`, right click the page, and save it on you computer
 
