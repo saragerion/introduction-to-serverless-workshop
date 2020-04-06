@@ -5,7 +5,7 @@ This repository explains the steps that need to be followed during the workshop,
 Technologies used:
 
 * AWS CloudFormation
-* AWS API Gateway
+* Amazon API Gateway
 * AWS Lambda
 
 
